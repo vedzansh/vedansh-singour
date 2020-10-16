@@ -1,9 +1,13 @@
 h1 {
   text-align: center;
 }
-.blog div {
+#blog div {
   border-radius: 50px;
   background-color: pink;
+}
+#blog h1 {
+  text-align: center;
+  color: blue;
 }
 html {
  background-color: skyBlue;
