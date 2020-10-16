@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+}
+.blog div {
+  border-radius: 50px;
+  background-color: pink;
+}
 html {
  background-color: skyBlue;
  font-family: comic sans ms;
