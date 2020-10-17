@@ -1,20 +1,12 @@
 h1 {
   text-align: center;
 }
-#blog div {
-  border-radius: 50px;
-  background-color: pink;
-}
-#blog h1 {
-  text-align: center;
-  color: blue;
-}
 html {
+ font-family: Robot;
  background-color: skyBlue;
- font-family: comic sans ms;
 }
 a {
-  color: lime;
+  color: red;
   align: center;
 }
 button {
@@ -23,83 +15,54 @@ button {
  border-radius: 10px;
  background-color: black;
  height: 40px;
- width: 200px;
  font-weight: bold;
  align: center;
  color: red;
 }
-#header-nav li {
- display: inline;
- padding-left: 20px;
-}
-#header-nav {
- display: block;
- float: right;
- margin: 0;
-}
-#header {
+#head {
+ color: white;
  background-color: #1abc9c;
- height: 150px;
- line-height: 150px;
+ height: 100px;
+ margin: 0px;
+ padding: 0px;
+ border: solid #1abc9c 10px;
 }
-.container {
- max-width: 1000px;
- margin: 0 auto;
+#hl a {
+ color: white;
 }
-#header-title {
- display: block;
+#hl {
+ margin: 10px;
  float: left;
-
- font-size: 20px;
- font-weight: bold;
+ padding: 0px;
 }
-#header a {
+#hr {
+ margin: 10px;
+ float: right;
+ padding: 10px;
+}
+#hr img {
+ height: 50px;
+ width: 50px;
+ margin: 5px;
+ border-radius: 20px 0px 20px 0px;
+ border: solid #1abc9c 3px;
+}
+#foot {
  color: white;
- text-decoration: none;
-}
-#header a {
-  color: white;
-  text-decoration: none;
-
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-#header a:hover {
- color: #222;
-}
-#footer {
  background-color: #2f2f2f;
- padding: 50px 0;
+ height: 150px;
+ margin: 0px;
+ padding: 0px;
+ border: solid #2f2f2f 10px;
 }
-#footer {
- background-color: #2f2f2f;
- padding: 50px 0;
+#fl a {
+ color: #1abc9a;
 }
-.column {
- min-width: 300px;
- display: inline-block;
+#fl {
+ float: left;
+ margin: 10px;
 }
-.column {
- min-width: 300px;
- display: inline-block;
- vertical-align: top;
-}
-#footer h4 {
- color: white;
- text-transform: uppercase;
- letter-spacing: 0.1em;
-}
-#footer p {
- color: white;
-}
-a {
- color: #1abc9c;
- text-decoration: none;
-}
-a {
- color: limeS;
- text-decoration: none;
-}
-a:hover {
- color: #F6A623;
+#fr {
+ float: right;
+ margin: 10px;
 }
