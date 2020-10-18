@@ -1,7 +1,9 @@
 h1 {
   text-align: center;
 }
-html {
+html,body {
+ margin: 0;
+ padding: 0;
  font-family: Robot;
  background-color: skyBlue;
 }
