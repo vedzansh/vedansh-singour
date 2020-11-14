@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <style>
+            .lamps {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3rem;
+}
+ 
+
+
+@keyframes swing{
+    0% {transform:rotate(30deg);}
+    50% {transform:rotate(-30deg);}
+    100% {transform:rotate(30deg);}
+}
+
+@keyframes glow{
+    0% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #EAB72F, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #EAB72F, 0 0 70px #EA5C2F}
+    25% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #36EA2F, 0 0 40px #36EA2F, 0 0 50px #36EA2F, 0 0 60px #36EA2F, 0 0 70px #36EA2F}
+    50% { textShadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #362FEA, 0 0 60px #e60073, 0 0 70px #362FEA}
+    100% { textShadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #362FEA, 0 0 40px #EA5C2F, 0 0 50px #EAB72F, 0 0 60px #ff4da6, 0 0 70px #ff4da6}
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s infinite ease-in-out alternate;
+}
+    
+.base{
+    background-color:#d2691e;
+    width:100px;
+    height:53px;
+    border-bottom-right-radius:230px;
+    border-bottom-left-radius:230px;
+}
+    
+.fire{
+    height:28px;
+    width:18px;
+    background-color:yellow;
+    border-radius:50%;
+    animation: swing 2s infinite ease-in-out;
+    border: 1px solid red
+}
+
+body {
+    background: black;
+    color:white;
+    text-align:center;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+        Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    margin: 0;
+}
+
+
+main {
+    margin: 4rem auto 6rem;
+    max-width: 650px;
+    width: 90vw;
+}
+
+div{
+    margin:0 auto;
+    text-align:center;
+}
+
+
+a {
+  font-size: 50px;
+  color: #61dafb;
+  text-decoration: none;
+}
+a:hover {
+  color: lime;
+}
+button{
+  width: auto;
+  border: solid #2f2f2f;
+  border-radius: 30px;
+  background: #2f2f2f;
+}
+        </style>
+    </head> 
+ <body> 
+  <main> 
+   <h1 class="glow">Wishing 😇 you Happy😃 and Safe😎 Diwali🤩🤩</h1> 
+   <div class="lamps"> 
+    <div> 
+     <div class="fire"></div> 
+     <div class="base"></div> 
+    </div> 
+    <div> 
+     <div class="fire"></div> 
+     <div class="base"></div> 
+    </div> 
+    <div> 
+     <div class="fire"></div> 
+     <div class="base"></div> 
+    </div> 
+    <div> 
+     <div class="fire"></div> 
+     <div class="base"></div> 
+    </div> 
+   </div> 
+   <h3 class="glow">~ by Vedansh Singour</h3> 
+ <h1> <button> <a href="https://vedansh-singour.github.io/vedansh-singour/"> My Website 😊 </a> </button> </h1>
+  </main>
+ 
+</body></html>
